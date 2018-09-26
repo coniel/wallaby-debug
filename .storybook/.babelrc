@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    "transform-class-properties",
+    "transform-function-bind",
+    "transform-object-rest-spread",
+    "babel-plugin-inline-import"
+  ],
+  "presets": [
+    "@babel/env",
+    "@babel/react"
+  ]
+}
