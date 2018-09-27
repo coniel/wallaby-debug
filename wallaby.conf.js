@@ -69,9 +69,7 @@ module.exports = function(wallaby) {
         .reduce(
           (acc, v) => {
             const packageJsonPath = v;
-            acc[`^${require(packageJsonPath).name}`] = path.dirname(
-              packageJsonPath,
-            );
+            acc[`^${require(packageJsonPath).name}(.*)`] = `${path.dirname(packageJsonPath)}$1`;
             return acc;
           },
           {},
