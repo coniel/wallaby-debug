@@ -3,7 +3,8 @@
   "workspaces": {
     "packages": [
       "packages/apps/*",
-      "packages/components/*"
+      "packages/components/*",
+      "packages/libs/*"
     ],
     "nohoist": [
       "**/react-scripts",

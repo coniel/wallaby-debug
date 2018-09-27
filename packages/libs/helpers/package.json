@@ -1,0 +1,8 @@
+{
+  "name": "@libs/helpers",
+  "description": "We're here to help!",
+  "version": "0.1.0",
+  "files": [
+    "./image"
+  ]
+}
